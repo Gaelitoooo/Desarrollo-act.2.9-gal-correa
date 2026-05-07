@@ -1,0 +1,31 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+
+        backgroundColor: Colors.grey[200],
+
+        appBar: AppBar(
+
+          backgroundColor: Colors.green,
+
+          title: const Text('Gael Correa - CETis 87'),
+          centerTitle: true,
+        ),
+
+        body: const Center(
+
+          child: Text(
+            'Bienvenido',
+            style: TextStyle(
+              fontSize: 25,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}
